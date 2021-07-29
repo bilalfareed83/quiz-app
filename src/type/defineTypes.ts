@@ -13,3 +13,9 @@ export type QuizQuestionType = {
     option: string[]
     question: string
 }
+
+export type propsType = {
+    question: string
+    option: string[]
+    handleSubmit: (e:React.FormEvent<EventTarget>)=> void
+}

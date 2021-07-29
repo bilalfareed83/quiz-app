@@ -7,8 +7,9 @@ export type QuizType ={
     type: string
 }
 
-export type Quiz = {
-    question: string
-    option: string[]
+
+export type QuizQuestionType = {
     answer: string
+    option: string[]
+    question: string
 }
